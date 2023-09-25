@@ -1,0 +1,110 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0b8494;
+    position: static;
+    top: 0;
+}
+li {
+    float: left;
+}  
+.hello{
+    background-color: orange;
+    text-align: center;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  /* fondo color */
+li a:hover {
+    background-color: #25bfd3;
+}
+article {
+    font: normal 18px/1.5 "Helvetica Neue", sans-serif;
+    }
+    .efecto{
+        width: 100%;
+        height:400px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(/h.jpg);
+        color: transparent;
+        
+    }
+    .efecto .overlay {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height:400px;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        transition: background-color .4s;
+        border-radius: 50px;
+    }
+    .efecto a:hover .overlay {
+        background-color: rgba(126, 210, 241, 0.808);
+        border-radius: 50px;
+    }
+    .efecto .overlay h2 {
+        transform: translate3d(0, -60px, 0);
+    }  
+    .efecto .overlay p {
+        transform: translate3d(0, 60px, 0);   
+        }
+    .efecto a:hover .overlay-inner * {
+            opacity: 1;
+            visibility: visible;
+            transform: none;
+            transition: all .3s .3s;
+            color: black;
+        }
+        .efectos{
+            width: 100%;
+            height:300px;
+            background-repeat: no-repeat;
+            background-size: 500px;
+            background-image: url(/logoinformatica.png);
+            color: #ffffff;
+        }
+        .efectos .overlay {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height:400px;
+            transition: background-color .4s;
+            border-radius: 50px;
+        }
+        h2{
+            color:transparent;
+        }
+        p{
+            color: transparent;
+        }
+        .efectos a:hover .overlay {
+            background-color: rgba(247, 173, 173, 0.808);
+            border-radius: 50px;
+        }
+        .efectos .overlay h2 {
+            transform: translate3d(0, -60px, 0);
+        }  
+        
+        .efectos .overlay p {
+            transform: translate3d(0, 60px, 0);   
+            }
+        .efectos a:hover .overlay-inner * {
+                opacity: 1;
+                visibility: visible;
+                transform: none;
+                transition: all .3s .3s;
+                color: black;
+            }
